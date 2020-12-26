@@ -1,0 +1,15 @@
+.hidden {
+    display: none;
+}
+
+body {
+    padding: 20px;
+}
+
+.menuBox {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    background-color: bisque;
+}
