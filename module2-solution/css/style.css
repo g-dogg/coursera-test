@@ -12,4 +12,41 @@ body {
     height: auto;
     width: 100%;
     background-color: bisque;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 20px !important;
+}
+
+.menuBox:hover {
+    background-color: #FFDAB9;
+    cursor: pointer;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.menuBox p {
+    margin-top: 40px;
+    padding: 10px 20px 10px 20px;
+}
+
+.menuCol .menuBox h3 {
+    display: block;
+    width: 33%;
+    min-width: 145px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+
+.menuCol:first-child .menuBox h3{
+    background-color:#CD5C5C;
+}
+
+.menuCol:nth-child(2) .menuBox h3{
+    background-color:#40E0D0;
+}
+.menuCol:nth-child(3) .menuBox h3{
+    background-color: #FFE4B5;
 }
